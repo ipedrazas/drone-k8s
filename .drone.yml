@@ -5,5 +5,5 @@ script:
   
 publish:
   docker:
-    docker_host: tcp://drone-worker.ipedrazas.k82.co.uk:2375
+    docker_host: tcp://drone-worker.ipedrazas.k8s.co.uk:2375
     image_name: dronek8s
