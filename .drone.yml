@@ -1,0 +1,9 @@
+image: ubuntu
+
+script:
+  - echo $whoami
+  
+publish:
+  docker:
+    docker_host: tcp://drone-worker.ipedrazas.k82.co.uk:2375
+    image_name: dronek8s
